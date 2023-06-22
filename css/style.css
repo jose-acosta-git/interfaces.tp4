@@ -1,5 +1,14 @@
+/*GENERAL STYLE*/
+
 body {
     margin: 0;
+}
+
+button {
+    background-color: green;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
 }
 
 /*HEADER*/
