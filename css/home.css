@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main p {
+    font-size: 20px;
+}
+
+main button {
+    margin: 50px 0;
+}
