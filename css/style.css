@@ -38,7 +38,7 @@ header a p {
 footer {
     height: 50px;
     background-color: green;
-    position: absolute;
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
