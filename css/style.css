@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700&display=swap');
 
+/*GENERAL STYLE*/
+
 body {
     font-family: 'Oxanium', sans-serif;
     margin: 0;
+}
+
+button {
+    background-color: green;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
 }
 
 /*HEADER*/
@@ -32,7 +41,7 @@ header a p {
 footer {
     height: 50px;
     background-color: green;
-    position: absolute;
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
