@@ -12,3 +12,62 @@ main p {
 main button {
     margin: 50px 0;
 }
+
+#news {
+    margin-top: 30px;
+    border-top: solid black 3px;
+    background:rgba(110, 238, 36, 0.406);
+}
+
+#news h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+#news section {
+    margin: 30px 10px;
+    background-color: rgba(30, 236, 251, 0.463);
+    border: black solid 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#news section img{
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+
+    #about-us{
+        display: flex;
+        align-items: center;
+    }
+
+    #img-home {
+        width: 40%;
+    }
+
+    #info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #info p {
+        font-size: 25px;
+    }
+
+    #info h1 {
+        font-size: 40px;
+    }
+
+    #news-group {
+        display: flex;
+    }
+
+    #news h1 {
+        font-size: 40px;
+    }
+
+}
