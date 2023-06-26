@@ -70,3 +70,8 @@ input[type="password"] {
     color: black;
     text-decoration: underline;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
