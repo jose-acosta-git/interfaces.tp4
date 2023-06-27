@@ -29,11 +29,12 @@ main button {
 }
 
 #news section {
-    margin: 30px 10px;
-    background-color: rgba(30, 236, 251, 0.463);
-    border: black solid 5px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
+    line-height: 1.4;
 }
 
 #news section img {
