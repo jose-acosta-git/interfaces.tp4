@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    height: min-content;
+    justify-content: space-around;
+    background-image: url("../images/tree.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
