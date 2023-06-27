@@ -1,8 +1,6 @@
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
 
 main p {
@@ -16,7 +14,7 @@ main button {
 #news {
     margin-top: 30px;
     border-top: solid black 3px;
-    background: #B5E196;
+    background: white;
     min-height: 100vh;
     width: 100%;
     box-sizing: border-box;
@@ -39,6 +37,16 @@ main button {
 
 #news section img {
     width: 100%;
+}
+
+#news section p {
+    display: flex;
+    flex-direction: flex-start;
+}
+
+#news h2 {
+    text-align: center;
+    color: #5B9632;
 }
 
 @media (min-width: 1024px) {
@@ -74,7 +82,6 @@ main button {
     #news h1 {
         font-size: 40px;
     }
-
 }
 
 @media (min-width: 1280px) {
