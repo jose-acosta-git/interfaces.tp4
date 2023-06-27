@@ -1,8 +1,16 @@
+header {
+    position: absolute;
+}
+
+footer {
+    position: absolute;
+}
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .formulario {
@@ -10,6 +18,7 @@ main {
     width: 80%;
     padding: 20px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .formulario h1 {
@@ -71,7 +80,8 @@ input[type="password"] {
     text-decoration: underline;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
+@media (max-height: 750px) {
+    footer {
+        position: relative;
+    }
 }
