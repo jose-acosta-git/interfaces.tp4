@@ -18,7 +18,7 @@ button {
 
 /*HEADER*/
 header {
-    background: linear-gradient(to right, #00bb00, #008300);
+    background: linear-gradient(to right, #5B9632, #3A7113);
     display: flex;
     justify-content: space-between;
     padding: 0 4%;
@@ -53,7 +53,7 @@ header a:hover {
 /*FOOTER*/
 footer {
     height: 50px;
-    background-color: green;
+    background: linear-gradient(to right, #5B9632, #3A7113);
     position: relative;
     width: 100%;
     display: flex;
