@@ -19,6 +19,7 @@ input[type="text"] {
 }
 
 #news-container .news-item {
+  flex-basis: 30%;
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);

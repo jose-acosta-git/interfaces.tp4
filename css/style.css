@@ -18,25 +18,36 @@ button {
 
 /*HEADER*/
 header {
+    background: linear-gradient(to right, #00bb00, #008300);
     display: flex;
     justify-content: space-between;
     padding: 0 4%;
     align-items: center;
     height: 50px;
     width: 92%;
-    background-color: green;
-    border-bottom: black solid 2px ;
+    border-bottom: black solid 2px;
     margin: 0;
 }
+
 header a {
+    width: fit-content;
     height: 80%;
+    padding: 0 10px;
+    transition: background-color 0.5s ease;
 }
+
 header img {
     height: 100%;
 }
 
 header a p {
     display: none;
+    text-align: center;
+}
+
+header a:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
 }
 
 /*FOOTER*/
@@ -56,11 +67,11 @@ footer {
 
     header {
         display: grid;
-        grid-template-areas:'logo . . . news user';
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 'news logo user';
+        grid-template-columns: 1fr auto auto;
         grid-template-rows: 100%;
         height: 40px;
-        padding: 0 2% ;
+        padding: 0 2%;
         width: 96%;
     }
 
@@ -78,13 +89,13 @@ footer {
     }
 
     header a:first-child {
-        grid-area: news;
-    }
-
-    header a:nth-child(2) {
         grid-area: logo;
     }
-      
+    
+    header a:nth-child(2) {
+        grid-area: news;
+    }
+    
     header a:nth-child(3) {
         grid-area: user;
     }
