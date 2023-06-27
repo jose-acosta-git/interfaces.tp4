@@ -71,3 +71,18 @@ main button {
     }
 
 }
+
+@media (min-width: 1280px) {
+
+    #img-home {
+        width: 80%;
+    }
+
+    #info h1 {
+        font-size: 45px;
+    }
+
+    #info p {
+        font-size: 35px;
+    }
+}
