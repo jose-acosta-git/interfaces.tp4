@@ -6,8 +6,20 @@ input[type="text"] {
   margin-bottom: 10px;
 }
 
+.image-container {
+  width: 592px;
+  height: 332px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 #news {
-  background-color: #B5E196;
+  background-color: white;
   margin-top: 0;
   padding: 0;
   padding-bottom: 30px;
@@ -30,4 +42,26 @@ input[type="text"] {
   font-size: 16px;
   line-height: 1.4;
   margin-bottom: 20px;
+}
+
+#news-items invdividual,
+#search,
+section h1 {
+  text-align: center;
+}
+
+#news-group a {
+  text-decoration: none;
+  color: #5B9632
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search img {
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
