@@ -6,9 +6,15 @@ input[type="text"] {
   margin-bottom: 10px;
 }
 
-#news img {
-  max-width: 592px;
-  max-height: 332px;
+.image-container {
+  width: 592px;
+  height: 332px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -38,13 +44,15 @@ input[type="text"] {
   margin-bottom: 20px;
 }
 
-#news-items invdividual, #search, section h1 {
+#news-items invdividual,
+#search,
+section h1 {
   text-align: center;
 }
 
-#news-group a  {
+#news-group a {
   text-decoration: none;
-  color:#5B9632
+  color: #5B9632
 }
 
 #search {
@@ -56,4 +64,4 @@ input[type="text"] {
 #search img {
   margin-left: 10px;
   margin-bottom: 10px;
-} 
+}
