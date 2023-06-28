@@ -1,14 +1,83 @@
 main {
     display: flex;
     height: min-content;
-    justify-content: space-around;
-    background-image: url("../images/tree.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    min-height: 550px;
+}
+
+footer {
+    position: relative;
 }
 
 form {
+    margin: 20px;
+    border: black solid 3px;
+    border-radius: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+#buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#page1 button {
+    align-self: flex-end;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+label {
+    font-size: 30px;
+}
+
+fieldset {
+    margin: 10px;
+    border: none;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.custom-label {
+    display: flex;
+}
+
+input[type="numeric"] {
+    font-size: 30px;
+    width: 80px;
+    margin-right: 0;
+}
+
+input[type="radio"] {
+    font: inherit;
+    width: 1.15em;
+    height: 1.15em;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.page {
+    display: none;
+}
+
+.page.visible {
+    display: flex;
+}
+
+
+@media (min-height: 650px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
 }
