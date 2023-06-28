@@ -45,8 +45,14 @@ main button {
 }
 
 #news h2 {
-    text-align: center;
+    display: flex;
+    flex-direction: flex-start;
     color: #5B9632;
+}
+
+#news-group section a  {
+    text-decoration: none;
+    color:#5B9632
 }
 
 @media (min-width: 1024px) {

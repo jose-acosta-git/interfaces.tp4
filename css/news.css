@@ -6,8 +6,14 @@ input[type="text"] {
   margin-bottom: 10px;
 }
 
+#news img {
+  max-width: 592px;
+  max-height: 332px;
+  object-fit: cover;
+}
+
 #news {
-  background-color: #B5E196;
+  background-color: white;
   margin-top: 0;
   padding: 0;
   padding-bottom: 30px;
@@ -31,3 +37,23 @@ input[type="text"] {
   line-height: 1.4;
   margin-bottom: 20px;
 }
+
+#news-items invdividual, #search, section h1 {
+  text-align: center;
+}
+
+#news-group a  {
+  text-decoration: none;
+  color:#5B9632
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search img {
+  margin-left: 10px;
+  margin-bottom: 10px;
+} 

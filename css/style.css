@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700&display=swap');
 
 /*GENERAL STYLE*/
-
 body {
     font-family: 'Oxanium', sans-serif;
     margin: 0;
@@ -19,7 +18,7 @@ button {
 
 /*HEADER*/
 header {
-    background: linear-gradient(to right, #5B9632, #3A7113);
+    background: linear-gradient(to right, #5B9632, #85BC5E);
     display: flex;
     justify-content: space-between;
     padding: 0 4%;
@@ -44,6 +43,8 @@ header img {
 header a p {
     display: none;
     text-align: center;
+    color: white;
+    font-size: 20px;
 }
 
 header a:hover {
@@ -54,7 +55,7 @@ header a:hover {
 /*FOOTER*/
 footer {
     height: 50px;
-    background: linear-gradient(to right, #5B9632, #3A7113);
+    background: linear-gradient(to right, #5B9632, #85BC5E);
     position: relative;
     width: 100%;
     display: flex;
