@@ -44,6 +44,10 @@ input[type="text"] {
   margin-bottom: 20px;
 }
 
+.individual a {
+  font-size: 22px;
+}
+
 #news-items invdividual,
 #search,
 section h1 {
