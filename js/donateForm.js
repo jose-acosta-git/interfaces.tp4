@@ -22,7 +22,7 @@ donateBtn.addEventListener('click', () => {
 });
 
 function nextPage() {
-    if (page1.elements.donation.value == 'custom' && (customInput.value < 0 || customInput.value == "")) {
+    if (page1.elements.donation.value == 'custom' && (customInput.value <= 0 || customInput.value == "")) {
         return wrongValue();
     }
     page1.classList.remove('visible');
