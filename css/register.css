@@ -1,0 +1,11 @@
+@media (min-height: 560px) {
+    footer {
+        position: relative;
+    }
+}
+
+@media (min-height: 748px) {
+    footer {
+        position: absolute;
+    }
+}
