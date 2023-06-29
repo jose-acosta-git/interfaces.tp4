@@ -1,9 +1,10 @@
 main {
     display: flex;
-    height: min-content;
     justify-content: center;
     align-items: center;
+    height: 85vh;
     min-height: 550px;
+    max-height: 100%;
 }
 
 footer {
