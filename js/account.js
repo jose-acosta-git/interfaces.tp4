@@ -5,7 +5,6 @@ const accountBtn = document.getElementById('accountBtn');
 const userIcon = document.getElementById('userIcon');
 
 let logged = sessionStorage.getItem('isLogged');
-console.log(logged);
 if (logged == null)
     sessionStorage.setItem('isLogged', 'false');
 if (logged == 'true') {
