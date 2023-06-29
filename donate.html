@@ -18,9 +18,9 @@
             <img src="images/logo.png" alt="logo">
             <p>Greenpeace</p>
         </a>
-        <a href="register.html">
-            <img src="images/user.png" alt="user">
-            <p>Registrarse</p>
+        <a id="accountBtn" href="register.html">
+            <img id="userIcon" src="images/user.png" alt="user">
+            <p id="userState">Registrarse</p>
         </a>
     </header>
 
@@ -29,7 +29,7 @@
             <h1>Colaborá con una donación</h1>
             <hr>
             <fieldset>
-                <input type="radio" name="donation" id="" value="100">
+                <input type="radio" name="donation" id="" value="100" checked>
                 <label for="100">$100</label>
             </fieldset>
             <fieldset>
@@ -43,17 +43,17 @@
             <fieldset class="custom-fieldset">
                 <input type="radio" name="donation" id="" value="custom">
             <label class="custom-label" for="custom">
-                $<input type="numeric" name="" id="" min="1">
+                $<input type="number" name="" id="customInput" step="1">
             </label>
             </fieldset>
             
-            <button>Siguiente</button>
+            <button id="page1-btn">Siguiente</button>
         </form>
         <form id="page2" class="page">
             <h1>Métodos de pago</h1>
             <hr>
             <fieldset>
-                <input type="radio" name="payment-method" id="" value="mercado-pago">
+                <input type="radio" name="payment-method" id="" value="mercado-pago" checked>
                 <label for="mercado-pago">Mercado Pago</label>
             </fieldset>
             <fieldset>
@@ -80,5 +80,6 @@
     </footer>
 
     <script src="js/donateForm.js"></script>
+    <script src="js/account.js"></script>
 </body>
 </html>

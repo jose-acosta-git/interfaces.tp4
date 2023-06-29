@@ -21,38 +21,39 @@
             <img src="images/logo.png" alt="logo">
             <p>Greenpeace</p>
         </a>
-        <a href="register.html">
-            <img src="images/user.png" alt="user">
-            <p>Registrarse</p>
+        <a id="accountBtn" href="register.html">
+            <img id="userIcon" src="images/user.png" alt="user">
+            <p id="userState">Registrarse</p>
         </a>
     </header>
 
     <main>
-        <div class="formulario">
+        <form class="formulario" id="form">
             <h1>Registrarse</h1>
-            <label for="usuario">Usuario:</label>
-            <input type="text" id="usuario" placeholder="Ingrese su usuario">
 
             <label for="usuario">Correo:</label>
-            <input type="text" id="usuario" placeholder="Ingrese su correo">
+            <input type="email" id="user" placeholder="Ingrese su correo">
 
             <label for="contrasena">Contraseña:</label>
-            <input type="password" id="contrasena" placeholder="Ingrese su contraseña">
+            <input type="password" id="password" placeholder="Ingrese su contraseña" minlength="4">
 
             <label for="contrasena">Confirmar contraseña:</label>
-            <input type="password" id="contrasena" placeholder="Reingrese su contraseña">
+            <input type="password" id="repeatPassword" placeholder="Reingrese su contraseña" minlength="4">
 
-            <div class="registro">
-                <button type="submit" class="boton-verde"><a href="news.html">Registrarse</a></button>
+            <div class="registro" id="btn-sections">
+                <button type="submit" class="boton-verde" id="registerBtn">Registrarse</button>
                 <p>Ya tenes una cuenta?</p>
                 <p><a href="login.html">Iniciar sesión</a></p>
             </div>
-        </div>
+        </form>
     </main>
 
     <footer>
         <p>Copyright Greenpeace</p>
     </footer>
+
+    <script src="js/register.js"></script>
+    <script src="js/account.js"></script>
 
 </body>
 
