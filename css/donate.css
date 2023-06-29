@@ -52,10 +52,19 @@ fieldset {
     display: flex;
 }
 
-input[type="numeric"] {
+/* Ocultar las flechas en navegadores basados en Chromium (Chrome, Edge, etc.) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
     font-size: 30px;
     width: 80px;
     margin-right: 0;
+    /* Ocultar las flechas en Firefox */
+    -moz-appearance: textfield;
 }
 
 input[type="radio"] {
@@ -74,6 +83,9 @@ input[type="radio"] {
     display: flex;
 }
 
+#errorMsg {
+    color: red;
+}
 
 @media (min-height: 650px) {
     footer {
