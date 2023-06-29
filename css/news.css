@@ -7,8 +7,8 @@ input[type="text"] {
 }
 
 .image-container {
-  width: 592px;
-  height: 332px;
+  width: 300px;
+  height: auto;
   overflow: hidden;
 }
 
@@ -64,4 +64,18 @@ section h1 {
 #search img {
   margin-left: 10px;
   margin-bottom: 10px;
+}
+
+@media (min-width: 700px) {
+  .image-container {
+    width: 592px;
+    height: 332px;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 }

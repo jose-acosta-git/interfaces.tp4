@@ -3,6 +3,22 @@ main {
     flex-direction: column;
 }
 
+#about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-us p, #about-us h1 {
+    margin-left: 10px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 main p {
     font-size: 20px;
 }
@@ -56,10 +72,11 @@ main button {
     color: #5B9632
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
 
     #about-us {
         display: flex;
+        flex-direction: row;
         align-items: center;
     }
 
