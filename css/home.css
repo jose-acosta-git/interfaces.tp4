@@ -67,6 +67,14 @@ main button {
     color: #5B9632;
 }
 
+.individual {
+    max-width: 70%;
+}
+
+.image-container {
+    max-width: 100%;
+}
+
 #news-group section a {
     text-decoration: none;
     color: #5B9632
